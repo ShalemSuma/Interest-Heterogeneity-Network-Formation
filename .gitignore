@@ -1,0 +1,40 @@
+# Credentials and secrets
+client_secrets.json
+token.pickle
+.env
+
+# Large data files
+data/raw/*.csv
+data/raw/*.json
+data/raw/video_data/
+data/raw/processed_network_data.json
+data/processed/*.csv
+data/processed/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Checkpoint files
+*checkpoint*.json
